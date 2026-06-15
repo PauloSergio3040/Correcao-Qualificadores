@@ -17,3 +17,41 @@ Power BI Desktop
 Power Query Editor
 Arquivo CSV como fonte de dados
 GitHub para versionamento
+
+📋 Base de Dados
+
+A base utilizada contém informações sobre receitas, incluindo:
+
+Campo	Descrição
+Bolo	Nome da receita
+Materiais	Ingredientes utilizados
+Tempo	Tempo de preparo
+
+Exemplo:
+
+Bolo	Materiais	Tempo
+Bolo de Fubá	Farinha e Milho	00:01:00
+Bolo Brigadeiro	Farinha, Chocolate em Pó e Chocolate Granulado	00:02:00
+🔄 Processo de Transformação
+
+Durante o tratamento dos dados foram realizadas as seguintes etapas:
+
+Importação do arquivo CSV.
+Promoção da primeira linha como cabeçalho.
+Ajuste dos tipos de dados.
+Utilização da funcionalidade Extrair Avançado para separar informações textuais.
+Renomeação das colunas geradas.
+Organização dos dados em formato tabular.
+Validação dos resultados obtidos.
+🎯 Objetivos de Aprendizagem
+
+Este projeto foi desenvolvido para praticar:
+
+Manipulação de dados no Power Query;
+Limpeza e transformação de dados;
+Preparação de datasets para análise;
+Boas práticas em ETL;
+Organização de projetos de BI para portfólio.
+📈 Resultados
+
+Ao final do processo, os dados foram estruturados em colunas organizadas e prontas para análise, permitindo melhor visualização e interpretação das informações.
